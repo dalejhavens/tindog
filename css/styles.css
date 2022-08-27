@@ -1,0 +1,175 @@
+
+/* HTML Tags */
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Class Tags */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.phone-img {
+  transform: rotate(25deg);
+  width: 28%;
+  position: absolute;
+  right: 20%
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.dwnld-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing {
+  padding: 0 15%;
+}
+
+.pricing-heading {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+/* .cta-btn-div {
+  padding-left: 20%;
+} */
+
+.footer-icons {
+  padding: 1%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* ID Tags */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
